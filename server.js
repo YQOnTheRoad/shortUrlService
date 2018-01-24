@@ -6,4 +6,5 @@ var redirectRouter=require('./routes/redirect.js');
 
 
 app.use('/api/v1',restRouter);
-app.use('/:shortUrl',redirectRouter);app.listen(3000);
+app.use('/:shortUrl',redirectRouter);
+app.listen(3000);
